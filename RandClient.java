@@ -9,6 +9,7 @@ RandService port = service.getRandImplPort();
 // sample calls
 System.out.println(port.next1());
 System.out.println();
+System.out.println("Hello");
 List<Integer> nums = port.nextN(4);
 for (Integer num : nums) System.out.println(num);
 }
